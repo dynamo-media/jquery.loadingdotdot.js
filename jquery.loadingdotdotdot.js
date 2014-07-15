@@ -37,7 +37,6 @@
             
             base.$el.css("position", "relative");
             base.$loadingText.css({
-                "position": "absolute",
                 "top": (base.$el.outerHeight() / 2) - (base.$loadingText.outerHeight() / 2),
                 "left": (base.$el.width() / 2) - (base.$loadingText.width() / 2)
             });
